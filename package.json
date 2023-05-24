@@ -1,0 +1,31 @@
+{
+    "name": "autana-runtime",
+    "version": "1.0.0",
+    "description": "a Node-Red Runtime for Autana projects",
+    "author": "Autanalabs",
+    "main": "index.js",
+    "private": true,
+    "dependencies": {
+        "@node-red-contrib-themes/theme-collection": "^2.2.3",
+        "appwrite": "^10.2.0",
+        "cors-anywhere": "^0.4.4",
+        "electron-store": "^8.1.0",
+        "express": "^4.18.1",
+        "localtunnel": "^2.0.2",
+        "node-red": "^3.0.2",
+        "node-red-contrib-appwrite": "^0.0.11",
+        "node-red-contrib-json-schema": "~0.0.1",
+        "node-red-contrib-jwt": "~0.1.0",
+        "node-red-contrib-key-value-store": "^0.1.8",
+        "node-red-contrib-mongodb4": "~1.4.0",
+        "node-red-contrib-postgresql": "~0.11.1",
+        "node-red-contrib-sendgrid": "~0.2.1",
+        "node-red-node-mysql": "~1.0.1",
+        "passport-jwt": "^4.0.0",
+        "public-ip": "^6.0.1",
+        "ws": "^8.8.0"
+    },
+    "scripts": {
+        "start": "node ."
+    }
+}
